@@ -25,7 +25,7 @@ pipeline {
         }
         stage('Java 9') {
           agent {
-            label 'jdk9'
+            label 'jdk10'
           }
           steps {
             sh 'java -version'
